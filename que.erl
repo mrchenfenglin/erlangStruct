@@ -2,7 +2,15 @@
 %% @doc @todo Add description to arr.
 
 -module(que).
--include("record.hrl").
+
+%%erlang priority queue
+-record(queue, {
+          c = 0,
+          arr = [],
+          idx = 1,
+          size = 0,
+          init = -1
+         }).
 %%{capacity, arr, start, Size, Init}
 %% ====================================================================
 %% API functions
