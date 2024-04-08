@@ -7,6 +7,9 @@
 %% description 
 %% the record is illustrate priority queue
 %%erlang priority queue
+%%这里是用户2添加的注释
+%%这里是用户2添加的注释
+%%这里是用户2添加的注释
 -record(queue, {
           c = 0,
           arr = [],
