@@ -6,6 +6,7 @@
 %% test commit 
 %% description 
 %% the record is illustrate priority queue
+%%erlang priority queue
 -record(queue, {
           c = 0,
           arr = [],
